@@ -22,7 +22,7 @@ public class CategoryResource {
     }
 
     @GetMapping(value = "/{id}")
-    public ResponseEntity<> findById(@PathVariable Long id) {
+    public ResponseEntity<Category>FinById(@PathVariable Long id){
         Category category = new Category(1L, "Eletronics");
         return ResponseEntity.ok().body(category);
     }
