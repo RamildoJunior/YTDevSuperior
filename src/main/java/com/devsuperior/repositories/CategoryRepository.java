@@ -13,17 +13,17 @@ import java.util.Map;
 public class CategoryRepository {
 
     private Map<Long, Category> map = new HashMap<>();
-
     public void save(Category obj) {
-        map.put(obj.getId(), obj);
+            map.put(obj.getId(), obj);
+        }
+
+        public Category findById(Long id) {
+            return map.get(id);
+        }
+
+        public List<Category> findAll() {
+            return new ArrayList<Category>(map.values());
+        }
+
     }
 
-    public Category findById(Long id) {
-        return map.get(id);
-    }
-
-    public List<Category> findAll() {
-        return new ArrayList<Category>(map.values());
-    }
-
-}
