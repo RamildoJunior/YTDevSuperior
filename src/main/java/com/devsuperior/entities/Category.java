@@ -1,11 +1,15 @@
 package com.devsuperior.entities;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Category implements Serializable {
     private static final long serialVerionUID = 1L;
     private Long id;
     private String name;
+
+    private List<Product> products = new ArrayList<>();
 
     public Category() {
     }
@@ -31,6 +35,11 @@ public class Category implements Serializable {
     public void setName(String name) {
         this.name = name;
     }
+
+    public List<Product> getProducts() {
+        return products;
+    }
+    
 
     @Override
     public boolean equals(Object o) {

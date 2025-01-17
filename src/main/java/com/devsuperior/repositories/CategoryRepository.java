@@ -20,7 +20,6 @@ public class CategoryRepository {
 
     public Category findById(Long id) {
         return map.get(id);
-
     }
 
     public List<Category> findAll() {
