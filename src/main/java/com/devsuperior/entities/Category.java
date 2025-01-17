@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Category implements Serializable {
-    private static final long serialVerionUID = 1L;
+    private static final long serialVersionUID = 1L;
     private Long id;
     private String name;
 
