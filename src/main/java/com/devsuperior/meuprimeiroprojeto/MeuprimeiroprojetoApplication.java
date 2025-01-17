@@ -37,5 +37,10 @@ public class MeuprimeiroprojetoApplication implements CommandLineRunner {
 
 		categoryRepository.save(cat1);
 		categoryRepository.save(cat2);
+
+		productRepository.save(p1);
+		productRepository.save(p2);
+		productRepository.save(p3);
+		productRepository.save(p4);
 	}
 }
