@@ -1,12 +1,10 @@
-package com.devsuperior.entities;
-
-import org.springframework.data.annotation.Id;
+package com.devsuperior.meuprimeiroprojeto.entities;
 
 
 import javax.persistence.*;
+import javax.persistence.Entity;
 import java.io.Serializable;
 import java.util.Objects;
-
 @Entity
 public class Product implements Serializable {
     private static final long serialVersionUID = 1L;

@@ -1,8 +1,7 @@
-package com.devsuperior.repositories;
+package com.devsuperior.meuprimeiroprojeto.repositories;
 
-import com.devsuperior.entities.Category;
+import com.devsuperior.meuprimeiroprojeto.entities.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 @Repository

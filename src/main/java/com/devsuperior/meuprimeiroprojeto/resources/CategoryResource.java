@@ -1,7 +1,7 @@
-package com.devsuperior.resources;
+package com.devsuperior.meuprimeiroprojeto.resources;
 
-import com.devsuperior.entities.Category;
-import com.devsuperior.repositories.CategoryRepository;
+import com.devsuperior.meuprimeiroprojeto.entities.Category;
+import com.devsuperior.meuprimeiroprojeto.repositories.CategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
